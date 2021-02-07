@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  font-family: Roboto, sans-serif;
+  column-gap: 75px;
+}
+
+footer div p {
+  font-size: 13px;
+  margin-top: 7.5px;
+  width: 22ch;
+}
+
+footer div h1 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+footer div ul {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+footer div {
+  align-self: flex-start;
+}

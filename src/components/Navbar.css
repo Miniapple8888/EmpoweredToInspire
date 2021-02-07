@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffe6e6;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 25px;
+  font-family: Nokora, sans-serif;
+}
+nav ul li:last-of-type {
+  background-color: black;
+  padding: 7.5px 25px;
+  color: white;
+}

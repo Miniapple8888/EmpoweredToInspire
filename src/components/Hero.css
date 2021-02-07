@@ -1,0 +1,36 @@
+section {
+  margin-top: 74px;
+  height: calc(100vh - 74px);
+  background-color: #ffe6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+section div h1 {
+  font-family: Satisfy, sans-serif;
+  font-size: 48px;
+  color: #6155a6;
+  margin-bottom: 10px;
+}
+
+section div p {
+  font-family: Nokora, sans-serif;
+  color: #102e4a;
+  margin-bottom: 30px;
+  width: 30ch;
+}
+section div button {
+  border-radius: 50px;
+  padding: 7.5px 25px;
+  border: 2.5px solid #6155a6;
+  width: 125px;
+  color: #ffe6e6;
+  background-color: #6155a6;
+}
+section div button:last-of-type {
+  background-color: inherit;
+  color: #6155a6;
+  margin-left: 10px;
+}
